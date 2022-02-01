@@ -1,0 +1,160 @@
+{
+    "vendedores": 
+    [
+        {
+            "id" : 1,
+            "capacidade" : 250,
+            "mercados a visitar" :
+            [
+                "Mercado 1", "Mercado 3", "Mercado 5"
+            ]
+        },
+        {
+            "id" : 2,
+            "capacidade" : 150,
+            "mercados a visitar" :
+            [
+                "Mercado 2", "Mercado 8"
+            ]
+        },
+        {
+            "id" : 3,
+            "capacidade" : 200,
+            "mercados a visitar" :
+            [
+                "Mercado 4"
+            ]
+        },
+        {
+            "id" : 4,
+            "capacidade" : 750,
+            "mercados a visitar" :
+            [
+                "Mercado 6", "Mercado 7"
+            ]
+        }
+    ],
+    "locais":
+    [
+        {
+            "nome" : "Empresa",
+            "tipo" : "sede"
+        },
+        {
+            "nome" : "Mercado 1",
+            "tipo" : "mercado",
+            "clientes" : [2,5,6]
+        },
+        {
+            "nome" : "Mercado 2",
+            "tipo" : "mercado",
+            "clientes" : [1,3,4]
+        },
+        {
+            "nome" : "Mercado 3",
+            "tipo" : "mercado",
+            "clientes" : [7,10]
+        },
+        {
+            "nome" : "Mercado 4",
+            "tipo" : "mercado",
+            "clientes" : [8,9]
+        },
+        {
+            "nome" : "Mercado 5",
+            "tipo" : "mercado",
+            "clientes" : [11]
+        },
+        {
+            "nome" : "Mercado 6",
+            "tipo" : "mercado",
+            "clientes" : [12,14]
+        },
+        {
+            "nome" : "Mercado 7",
+            "tipo" : "mercado",
+            "clientes" : [13,15,16]
+        },
+        {
+            "nome" : "Mercado 8",
+            "tipo" : "mercado",
+            "clientes" : [17,18,19,20]
+        },
+        {
+            "nome" : "Armazem 1",
+            "tipo" : "armazem",
+            "capacidade" : 500,
+            "stock" : 420
+        },
+        {
+            "nome" : "Armazem 2",
+            "tipo" : "armazem",
+            "capacidade" : 1000,
+            "stock" : 750
+        },
+        {
+            "nome" : "Armazem 3",
+            "tipo" : "armazem",
+            "capacidade" : 200,
+            "stock" : 120
+        }
+    ],
+    "caminhos" : 
+    [
+        {
+            "de" : "Empresa",
+            "para" : "Mercado 1",
+            "distancia" : 30
+        },
+        {
+            "de" : "Empresa",
+            "para" : "Mercado 3",
+            "distancia" : 50
+        },
+        {
+            "de" : "Empresa",
+            "para" : "Mercado 7",
+            "distancia" : 10
+        },
+        {
+            "de" : "Mercado 1",
+            "para" : "Mercado 2",
+            "distancia" : 12
+        },
+        {
+            "de" : "Mercado 2",
+            "para" : "Mercado 5",
+            "distancia" : 40
+        },
+        {
+            "de" : "Mercado 3",
+            "para" : "Mercado 8",
+            "distancia" : 22
+        },
+        {
+            "de" : "Mercado 7",
+            "para" : "Mercado 4",
+            "distancia" : 250
+        },
+        {
+            "de" : "Mercado 7",
+            "para" : "Mercado 6",
+            "distancia" : 70
+        },
+        {
+            "de" : "Mercado 2",
+            "para" : "Armazem 1",
+            "distancia" : 10
+        },
+        {
+            "de" : "Mercado 3",
+            "para" : "Armazem 2",
+            "distancia" : 25
+        },
+        {
+            "de" : "Mercado 6",
+            "para" : "Armazem 3",
+            "distancia" : 12
+        }
+    ]
+}
